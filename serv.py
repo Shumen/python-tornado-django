@@ -1,5 +1,5 @@
-#*_* coding=utf8 *_*
 #!/usr/bin/env python
+#*_* coding=utf8 *_*
 
 __author__ = 'shumen'
 import os

@@ -14,4 +14,11 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+
+    url(r'^hello[/]?$', 'djdemo.views.hello', name='hello'),
+
+    url(r'^time[/]?$', 'djdemo.views.time', name='time'),
+
+    # 404 view
+    url(r'^.*$', 'djdemo.views.notfound', name='notfound'),
 )
